@@ -1,0 +1,74 @@
+html, body {
+ margin: 0px;
+ padding: 0px;
+ width: 100%;
+ height: 100%;
+}
+
+.frame-1 {
+  position: relative;
+  width: 100%; /* Adjust the width of the frame-1 as needed */
+  margin: auto;
+}
+
+.background-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.social-icons {
+  position: absolute;
+  width: 80%;
+  height: 200px;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1000px) {
+  .social-icon {
+    width: 120px;
+    height: 120px;
+    margin: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }  
+}
+
+@media screen and (min-width: 800px) {
+  .social-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }  
+}
+
+@media screen and (max-width: 800px) {
+  .social-icon {
+    width: 40px;
+    height: 40px;
+    margin: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }  
+}
+
+
+.social-icon img {
+  width: 80%;
+  height: auto;
+}
+
+.frames {
+  width: 100%;
+}
